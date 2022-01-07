@@ -1,0 +1,35 @@
+@import "./global.scss";
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: arrowBlink 1.5s infinite;
+
+
+    &__down{
+        border-left: none;
+        border-top: none;
+        bottom: 50px;
+    }
+
+    &__up{
+        border-right: none;
+        border-bottom: none;
+        top: 50px;
+    }
+
+    &:hover{
+        border-color: $hoverColor;
+        animation: none;
+    }
+
+    @keyframes arrowBlink {
+        100%{
+            opacity: 0;
+        }
+    }
+
+}

@@ -1,4 +1,4 @@
-import React from "./projects.scss"
+import "./projects.scss"
 
 export default function Projects() {
     return (
