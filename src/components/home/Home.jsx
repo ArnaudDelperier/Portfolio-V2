@@ -12,10 +12,8 @@ export default function Home() {
                     <div className="horizontal-divider"/>
                     <a href="#contact"> {">>>"} Me contacter {"<<<"}</a>
                 </div>
-                <a href="#projects">
-                    <div className="arrow arrow__down"></div>
-                </a>
             </div>
+            <a href="#projects" className="arrow-down"> </a>
         </div>
     )
 }

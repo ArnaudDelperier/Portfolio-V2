@@ -1,3 +1,9 @@
 .contact {
     background-color: rgb(104, 59, 0);
+
+    .arrow-down {
+        // arrow of last page, so we invert rotation (arrow will point up) for indicate we scroll to the top
+        transform: translateX(-50%) rotate(-135deg);
+        bottom: calc(-200vh + 140px + 35px); // -100vh for go to next div (size of the screen) 140px = 2x size of the top bar 35px = desired offset - half of arrow size
+    }
 }
