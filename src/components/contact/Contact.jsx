@@ -1,4 +1,4 @@
-import React from "./contact.scss"
+import "./contact.scss"
 
 export default function contact() {
     return (

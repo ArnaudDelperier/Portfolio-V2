@@ -1,4 +1,4 @@
-import React from "./topbar.scss"
+import "./topbar.scss"
 import {Home, GitHub, LinkedIn, Twitter} from "@mui/icons-material"
 
 export default function Topbar({ menuOpen, setMenuOpen}) {

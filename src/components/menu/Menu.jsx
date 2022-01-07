@@ -1,4 +1,4 @@
-import React from "./menu.scss"
+import "./menu.scss"
 
 export default function Menu({ menuOpen, setMenuOpen }) {
 
