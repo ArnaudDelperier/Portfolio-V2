@@ -17,6 +17,7 @@ export default function Projects() {
 
     return (
         <div className="projects" id="projects">
+            <h2 className="title">Projets</h2>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {projects.map((p) => (
                     <div className="container" key={p.name}>
