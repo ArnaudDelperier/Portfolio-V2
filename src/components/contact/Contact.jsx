@@ -86,9 +86,9 @@ export default function Contact() {
       };
 
     return (
-        <div className="contact" id="contact">
+        <div className="contact" id="contact">            
+            <h2 className="title">Contact</h2>
             <form className="contact-form">
-                <h2>Contactez-nous</h2>
                 <div className="form-content">
                     <input
                     type="text"
