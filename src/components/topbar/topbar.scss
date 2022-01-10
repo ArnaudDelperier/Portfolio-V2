@@ -17,6 +17,10 @@
         align-items: center;
         justify-content: space-between;
 
+        @media (max-width: 350px) {
+            padding: 8px 10px;
+        }
+
         .left{
             display: flex;
             align-items: center;
@@ -29,11 +33,25 @@
             .home-btn{
                 font-size: 50px;
                 margin-right: 60px;
+
+                @media (max-width: 440px) {
+                    margin-right: 30px;
+                }
+
+                @media (max-width: 350px) {
+                    margin-right: 20px;
+                }
             }
+
+
 
             .icon {
                 font-size: 30px;
                 margin-right: 30px;
+
+                @media (max-width: 350px) {
+                    margin-right: 10px;
+                }
             }
 
             .home-btn:hover, .icon:hover{
@@ -88,5 +106,4 @@
             }
         }
     }
-
 }
