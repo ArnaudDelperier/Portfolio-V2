@@ -17,10 +17,11 @@ export default function Projects() {
 
     return (
         <div className="projects" id="projects">
+            <h2 className="title">Projets</h2>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {projects.map((p) => (
                     <div className="container" key={p.name}>
-                        <a className="item" href={p.link}>
+                        <a className="item" href={p.link !== "none" ? p.link : null} target="_blank" rel="noreferrer">
                             <div className="left">
                                 <div className="left-container">
                                     <h2>{p.name}</h2>
